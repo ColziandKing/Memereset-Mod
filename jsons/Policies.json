@@ -13,7 +13,7 @@
 		"uniques": [
 			"[+3 Culture] [in capital]",
 			"[-25]% Culture cost of natural border growth [in all cities]",
-		 "Adopt [Oligarchy]",  
+		 "Adopt [Oligarchy]",  "[3] [Spearman]s rebel",
 	                "Only available <before the [Industrial era]>",
 		],
 		"policies": [
@@ -95,7 +95,7 @@
             "Scientific": 10
         },
         "uniques": ["[+1 Culture] [in all cities]",
-		 "Adopt [Republic]", 
+		 "Adopt [Republic]",   "[3] [Spearman]s rebel",
 	                "Only available <before the [Industrial era]>"],
         "policies": [
             {
@@ -176,7 +176,7 @@
             "[+33]% Strength <vs [Barbarian] units>",
             "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]", 
             "Notified of new Barbarian encampments", 
-		 "Adopt [Discipline]", 
+		 "Adopt [Discipline]",  "[3] [Spearman]s rebel",
 	                "Only available <before the [Industrial era]>",
         ],
         "policies": [
@@ -261,7 +261,7 @@
 		"uniques": [
 			"[+50]% Production when constructing [Shrine] buildings [in all cities]",
 			"[+50]% Production when constructing [Temple] buildings [in all cities]",
-		 "Adopt [Organized Religion]", 
+		 "Adopt [Organized Religion]",  "[3] [Pikeman]s rebel",
 	                "Only available <before the [Industrial era]>",
 			"Only available <when religion is enabled>"
 		],
@@ -352,7 +352,7 @@
 		"uniques": [
 			"[-25]% City-State Influence degradation",
 			"[-100]% weight to this choice for AI decisions <when number of [Remaining [City-State] Civilizations] is less than [5]>", 
-		 "Adopt [Philantropy]", 
+		 "Adopt [Philantropy]", "[3] [Pikeman]s rebel",
 			"Unavailable <after adopting [Order]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]> <hidden from users>",
 		],
@@ -421,7 +421,7 @@
 		},
 		"uniques": [
 			"[+10]% [Science] <while the empire is happy>",
-		 "Adopt [Secularism]", 
+		 "Adopt [Secularism]", "[5] [Rifleman]s rebel",
 			"Free Social Policy <if no other Civilization has adopted this>", // Early Adopter (usually provided to the first two civs)
 			"Unavailable <after adopting [Order]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]> <hidden from users>",
@@ -487,7 +487,7 @@
 		"uniques": [
 			"[+1] Movement <for [{Military} {Water}] units>",
 			"[+1] Sight <for [{Military} {Water}] units>",
-		 "Adopt [Maritime Infrastructure]", 
+		 "[4] [Musketman]s rebel","Adopt [Maritime Infrastructure]", 
 		],
 		"era": "Medieval era",
 		"priorities": {
@@ -576,7 +576,7 @@
 		},
 		"uniques": [
 			"[+25]% [Gold] [in capital]",
-		 "Adopt [Wagon Trains]", 
+		 "Adopt [Wagon Trains]",  "[4] [Musketman]s rebel",
 					"Unavailable <after adopting [Order]> <hidden from users>",
 			"Unavailable <after adopting [Autocracy]> <hidden from users>",
 		],
@@ -644,11 +644,12 @@
 	// Aesthetics
 	{
 		"name": "Aesthetics",
-		"era": "Classical era",
+		"era": "Renaissance era",
 		"uniques": [
 			"[Great Artist] is earned [25]% faster",
 			"[Great Musician] is earned [25]% faster",
 			"[Great Writer] is earned [25]% faster",
+			"[5] [Rifleman]s rebel",
 		 "Adopt [Cultural Centers]",
 		],
 		"priorities": {
@@ -736,7 +737,7 @@
 	// Ideology: Autocracy
 	{
 		"name": "Autocracy",
-		"era": "Ancient era",
+		"era": "Industrial era",
 		"priorities": {
             "Neutral": 20,
             "Cultural": 0,
@@ -750,7 +751,7 @@
 			"Unavailable <after adopting [Order]> <hidden from users>",
 			"Free Social Policy <if no other Civilization has adopted this>", // Early Adopter (usually provided to the first two civs)
 			"Remove [Ideology] [in capital] <hidden from users>",
-		 "Adopt [Populism] <hidden from users>", 
+		 "Adopt [Populism] <hidden from users>", "Adopt [Fascism] <hidden from users>", "[6] [Great War Infantry]s rebel",
 
 			// Preferred Ideology
 			"[+75]% weight to this choice for AI decisions",
@@ -1002,7 +1003,7 @@
 			"Unavailable <after adopting [Autocracy]> <hidden from users>",
 			"Free Social Policy <if no other Civilization has adopted this>", // Early Adopter (usually provided to the first two civs)
 			"Remove [Ideology] [in capital] <hidden from users>",
-		 "Adopt [Communism] <hidden from users>", 
+		 "Adopt [Communism] <hidden from users>", "Adopt [Socialism] <hidden from users>", "[6] [Great War Infantry]s rebel",
 
 			// Preferred Ideology
 			"[+75]% weight to this choice for AI decisions",
@@ -1250,7 +1251,7 @@
 			"Unavailable <after adopting [Autocracy]> <hidden from users>",
 			"Free Social Policy <if no other Civilization has adopted this>", // Early Adopter (usually provided to the first two civs)
 			"Remove [Ideology] [in capital] <hidden from users>",
-		 "Adopt [Free Speech] <hidden from users>", 
+		 "Adopt [Free Speech] <hidden from users>", "Adopt [Constitution] <hidden from users>", "[6] [Great War Infantry]s rebel",
 
 			// Preferred Ideology
 			"[+75]% weight to this choice for AI decisions",
@@ -1675,3 +1676,4 @@
 		]
 	},
 ]
+
