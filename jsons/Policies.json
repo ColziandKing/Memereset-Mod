@@ -1787,10 +1787,10 @@
 			{
 				"name": "Free Religion",
 				"uniques": [
-					"[-3 Faith] <in [Puppeted] cities>",
-					"[-2 Faith] [in capital]",
-					"[-1 Faith] [in all cities]",
-					"[+27]% Natural religion spread [in all cities] <in [Annexed] cities>",
+					"[+25]% [Happiness] [in annexed cities]",
+					"[+15]% [Happiness] [in puppeted cities]",
+					"[+27]% Natural religion spread [in all cities] [in annexed cities]",
+					"[+17]% Natural religion spread [in all cities] [in puppeted cities]",
 			"Comment [Freedom;Recommended for Order civs]",
 				],		
 				"row": 1,
