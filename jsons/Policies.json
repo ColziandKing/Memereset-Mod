@@ -1110,6 +1110,7 @@
 			{
 				"name": "Autocracy Complete",
 				"uniques": [
+					"Adopt [Autarky] <hidden from users>",
 					"Will not be displayed in Civilopedia"
 				]
 			}
@@ -1394,6 +1395,7 @@
 			{
 				"name": "Order Complete",
 				"uniques": [
+					"Adopt [Planned Economy] <hidden from users>",
 					"Will not be displayed in Civilopedia"
 				]
 			}
@@ -1672,6 +1674,7 @@
 			{
 				"name": "Freedom Complete",
 				"uniques": [
+					"Adopt [Free Religion] <hidden from users>",
 					"Will not be displayed in Civilopedia"
 				]
 			}
