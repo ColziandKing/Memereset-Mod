@@ -314,6 +314,7 @@
 			{
 				"name": "Theocracy",
 				"uniques": [
+					"[-25}% [Science] [in holy cities] [in foreign cities]",
 					"[+25]% [Gold] from every [Temple]",
 					"[+3 Gold] from every [Holy site]"
 				],
@@ -1787,6 +1788,7 @@
 			{
 				"name": "Free Religion",
 				"uniques": [
+					"[+30}% [Happiness] [in holy cities]",
 					"[+25]% [Happiness] [in annexed cities]",
 					"[+15]% [Happiness] [in puppeted cities]",
 					"[+27]% Natural religion spread [in all cities] [in annexed cities]",
@@ -1828,8 +1830,9 @@
 			{
 				"name": "Planned Economy",
 				"uniques": [
-            "[+75]% unhappiness from the number of cities",
-        "[-25]% Unhappiness from [Population] [in all cities]",
+					"[+30}% [Happiness] [in holy cities]",
+            "[+25]% unhappiness from the number of cities",
+        "[-75]% Unhappiness from [Population] [in all cities]",
 			"Comment [Order;Recommended for Order civs]",
 				],
 				"row": 3,
@@ -1838,6 +1841,7 @@
         {
             "name": "Autarky",
             "uniques": [
+				"[+30}% [Happiness] [in holy cities]",
                     "[+100]% [Strategic] resource production",
                 "[+2 Food] [in all cities connected to capital]",
 			"Comment [Autocracy;Recommended for Autocracy & Order civs]",
