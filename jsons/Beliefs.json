@@ -308,7 +308,7 @@
         "name": "Jihad",
         "type": "Follower",
         "uniques": [
-			"[+45]% [Tourism] [in non-enemy foreign cities]",
+			"[+45]% [Gold] [in non-enemy foreign cities]",
 			"[-30]% [Happiness] [in enemy cities]",
 			"[-15]% [Happiness] [in foreign cities]"
         ]
