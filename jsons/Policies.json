@@ -1701,7 +1701,7 @@
 			{
 				"name": "Free Religion",
 				"uniques": [
-					"[+30]% [Tourism] [in holy cities]",
+					"[+30]% [Culture] [in holy cities]",
 					"[+25]% [Happiness] [in annexed cities]",
 					"[+15]% [Happiness] [in puppeted cities]",
 					"[+27]% Natural religion spread [in all cities] [in annexed cities]",
@@ -1804,7 +1804,7 @@
 			{
 				"name": "Planned Economy",
 				"uniques": [
-					"[+20]% [Tourism] [in resisting cities]",
+					"[+20]% [Food] [in resisting cities]",
             "[+25]% unhappiness from the number of cities",
         "[-75]% Unhappiness from [Population] [in all cities]",
 			"Comment [Order;Recommended for Order civs]",
@@ -1815,7 +1815,7 @@
         {
             "name": "Autarky",
             "uniques": [
-				"[+20]% [Tourism] [in cities being razed]",
+				"[+20]% [Gold] [in cities being razed]",
                     "[+100]% [Strategic] resource production",
                 "[+2 Happiness] [in all cities connected to capital]",
 			"Comment [Autocracy;Recommended for Autocracy & Order civs]",
