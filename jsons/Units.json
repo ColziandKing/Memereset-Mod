@@ -102,7 +102,7 @@
         "strength": 14,
         "cost": 75,
         "requiredTech": "Iron Working",
-		"promotions": ["[Haka War Dance] ability","Amphibious"],
+		"promotions": ["Haka War Dance","Amphibious"],
 		"civilopediaText": [ {"text": "How can weapons of war be fashioned without metal, obsidian, or flint? For the Hawaiians, the answer was found in the sea. The leiomano, the shark’s lei, is a broad wooden club rimmed with tiger shark teeth, which put the power of a shark's bite into the hands of individual Hawaiian warriors. \nHawai’i hasn't always been a unified archipelago. Some areas and islands had different kings, and these kings often engaged in bloody battles of conquest – until the rise of Kamehameha in the late 1700s. This leader engaged in a broad system of conquest to unite the fractious isles through outrigger, spear, and shark-tooth club."}, {"separator": true}],
         "upgradesTo": "Longswordsman",
         "obsoleteTech": "Steel",
