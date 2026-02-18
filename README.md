@@ -26,3 +26,19 @@ A Star Wars mod for Unciv. With help from Sullien, and it works well with his Je
 		"uniques": ["Gain [100] [Gold] <upon constructing [Wonders] [in this city]> <(modified by game speed)>", "Destroyed when the city is captured"],
 		"requiredTech": "Philosophy"
 	},
+
+
+	 {
+        "name": "Madinat",
+        "maintenance": 2,
+		"replaces": "University",
+		"uniqueTo": "The Abbasids",
+		"cost": 160,
+		"hurryCostModifier": 160,
+        "percentStatBonus": {"science": 33},
+        "specialistSlots": {"Scientist": 2},
+        "requiredBuilding": "Library",
+		"civilopediaText": [ {"text": "Religion and education were closely intertwined under Abbasid rule, and the pursuit of knowledge was considered a key part of one’s spiritual journey. Early schooling focused on memorizing and studying religious texts. The development of the madrasa presented the opportunity for higher education and entry into the ranks of the ulema (the plural form of ʿālim), a community of scholars whose expertise on matters of legal import was invaluable to the empire. The mosque’s role as the center of spiritual and communal life formed a natural bond with the madrasa’s focus on religious-based scholarship, and the two buildings were typically constructed in a single complex that included a library and a boarding house for students, funded through charitable donations."}, {"separator": true}],
+        "uniques": ["[+2 Science] from [Jungle] tiles [in this city]","[+2 Science, +1 Gold] from every specialist [in this city]"],
+        "requiredTech": "Education"
+    },
