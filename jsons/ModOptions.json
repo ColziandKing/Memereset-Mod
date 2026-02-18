@@ -1,4 +1,13 @@
+
 {
+	"nationsToRemove": [
+		"Jakarta",
+		"Lisbon",
+		"Marrakech",
+		"Warsaw",
+		"Rio de Janeiro",
+		"Helsinki"
+	],
 	"uniques": [
 	  "Allow raze capital","Allow raze holy city",
 	"Allow City States to spawn with additional units",
