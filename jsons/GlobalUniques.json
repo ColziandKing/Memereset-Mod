@@ -15,6 +15,7 @@
 	  "[-55]% maintenance costs <for [Water] units>","[-20]% maintenance costs <for [Land] units>",
 	        "Free [Settler] appears <for [Major] Civilizations> <upon entering the [Classical era]>",
 	        "Free [Settler] appears <for [City-States] Civilizations> <upon entering the [Classical era]>",
+	  "\"Borrows\" city names from other civilizations in the game",
 	        "[3] free [Landsknecht] units appear <for [City-States] Civilizations> <upon entering the [Medieval era]>",
 	        "[3] free [Foreign Legion] units appear <for [City-States] Civilizations> <upon entering the [Industrial era]>",
 		"[-11]% Gold from Great Merchant trade missions <before the [Ancient era]>",
