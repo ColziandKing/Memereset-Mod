@@ -12,6 +12,20 @@
 					"Generated on every [15] tiles <in [{Featureless} {Hill}] tiles>",
 					"Generated on every [19] tiles <in [{Featureless} {Desert}] tiles>"]
 	},
+	{
+		"name": "Jewelry",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States",
+			"Cannot be traded <hidden from users>"]
+	},
+	{
+		"name": "Porcelain",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Can only be created by Mercantile City-States",
+			"Cannot be traded <hidden from users>"]
+	},
 
 	// Policies: Ideology slot requirements
 	{
@@ -38,16 +52,4 @@
 			"Will not be displayed in Civilopedia"
 		]
 	},
-	{
-		"name": "Level 3 Policy",
-		"resourceType": "Bonus",
-		"uniques": [
-			"Cannot be traded <hidden from users>",
-			"Stockpiled",
-			"Excluded from map editor",
-			"Not shown on world screen",
-			"Doesn't generate naturally",
-			"Will not be displayed in Civilopedia"
-		]
-	}
 ]
