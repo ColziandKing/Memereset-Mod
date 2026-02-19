@@ -11,7 +11,7 @@
             "Scientific": 10
 		},
 		"uniques": [
-			"[+3 Culture] [in capital]",
+			"[+3 Culture] [in capital]","Adopt [Aristocracy]",
 			"[-25]% Culture cost of natural border growth [in all cities]",
 		 "Adopt [Oligarchy]","Get the leader title of [Lord/Lady [leaderName]]",
 	                "Only available <before the [Industrial era]>",
@@ -110,7 +110,7 @@
             "Scientific": 0
         },
         "uniques": ["[+1 Culture] [in all cities]",
-		 "Adopt [Republic]", 
+		 "Adopt [Democracy]", "Adopt [Citizenship]",
                     "Get the leader title of [Consul [leaderName]]",
 	                "Only available <before the [Industrial era]>"],
         "policies": [
@@ -198,7 +198,7 @@
             "[+33]% Strength <vs [Barbarian] units>",
             "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]", 
             "Notified of new Barbarian encampments", 
-		 "Adopt [Discipline]",
+		 "Adopt [Discipline]","Adopt [Warrior Code]",
                     "Get the leader title of [[leaderName] the Great]",
 	                "Only available <before the [Industrial era]>",
         ],
@@ -277,7 +277,7 @@
 	// Piety
 	{
 		"name": "Piety",
-		"era": "Ancient era",
+		"era": "Classical era",
 		"priorities": {
             "Neutral": 0,
             "Cultural": 20,
