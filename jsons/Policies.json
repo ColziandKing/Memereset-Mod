@@ -315,7 +315,7 @@
 			{
 				"name": "Theocracy",
 				"uniques": [
-					"[-25]% [Science] [in holy cities] [in foreign cities]",
+					"[-25]% [Science] [in enemy cities]",
 					"[+25]% [Gold] from every [Temple]",
 					"[+3 Gold] from every [Holy site]"
 				],
