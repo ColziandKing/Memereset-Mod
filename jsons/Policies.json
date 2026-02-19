@@ -483,7 +483,7 @@
 					"[+2 Science] from every specialist [in all cities]"
 				],
 				"row": 1,
-				"column": 2
+				"column": 1
 			},
 			{
 				"name": "Humanism",
@@ -492,7 +492,7 @@
 					"[Great Scientist] is earned [25]% faster"
 				],
 				"row": 1,
-				"column": 4
+				"column": 5
 			},
 			{
 				"name": "Free Thought",
@@ -527,7 +527,7 @@
 					"Sovereignty"
 				],
 				"row": 3,
-				"column": 2
+				"column": 3
 			},
 			{
 				"name": "Rationalism Complete",
@@ -617,7 +617,7 @@
 					"Merchant Navy"
 				],
 				"row": 3,
-				"column": 2
+				"column": 3
 			},
 			{
 				"name": "Exploration Complete",
