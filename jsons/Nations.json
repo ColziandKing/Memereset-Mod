@@ -161,6 +161,7 @@
 		"innerColor": [255,254,231],
 		"uniqueName": "Serenissima",
 		"uniques": [
+			"Cannot build [Settler] units",
 			"May not annex cities",
 			"Double the normal number of Trade Routes available",
 			"Free [Merchant of Venice] appears <upon discovering [Optics] technology>",
@@ -168,7 +169,7 @@
 			"Preferred Ideology: Freedom"
 		],
 		"spyNames": ["Gasparo", "Giosafat", "Ambrogio", "Niccolo", "Marino", "Cesare", "Francesco", "Giovanni", "Bertolome", "Filomena"],
-		"cities": ["Venice","Thessaloniki","New Sirmium","Nova Aquileia"]
+		"cities": ["Venice","Thessaloniki"]
 	},
 	{
 		"name": "The Huns",
@@ -196,11 +197,11 @@
         "favoredReligion": "Tengriism",
 		"uniqueName": "Scourge of God",
 		"uniques": [
-			"Cannot build [Settler] units","[+1 Production] from every [Pasture]", "Cities are razed [2] times as fast", "Starts with [Animal Husbandry]", 
+			"[+1 Production] from every [Pasture]", "Cities are razed [2] times as fast", "Starts with [Animal Husbandry]", 
 			"[6] free [Horse Archer] units appear <upon entering a new era> <after turn number [3]> <hidden from users>","May not puppet cities",
       "Starts with [Trapping] <hidden from users>","[4] units cost no maintenance <hidden from users>",
 		],
-		"cities": ["Attila's Court","Neo Metz"],
+		"cities": ["Attila's Court","New Sirmium","Nova Aquileia","Neo Metz"],
         "spyNames": ["Balamber", "Uldin", "Donatus", "Charato", "Octar", "Bleda", "Ellac", "Dengizik", "Hildico", "Gudrun"]
     },
 ]
