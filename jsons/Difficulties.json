@@ -102,7 +102,7 @@
 		"unhappinessModifier": 1,
 		"barbarianBonus": 0.33,
 		"barbarianSpawnDelay": 0,
-		"playerBonusStartingUnits": ["Tehina"],
+		"playerBonusStartingUnits": ["Tehina","Mechanized Infantry","Mechanized Infantry"],
         "aiDifficultyLevel": "Prince",
 		"aiCityGrowthModifier": 1,
 		"aiUnitCostModifier": 1,
