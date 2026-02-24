@@ -112,7 +112,7 @@
 	{
         "name": "Colonist",
 		"replaces": "Settler",
-        "uniqueTo": "America",
+        "uniqueTo": "Germany",
         "unitType": "Civilian",
         "movement": 2,
         "cost": 106,
