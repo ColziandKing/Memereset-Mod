@@ -1630,7 +1630,8 @@
 			{
 				"name": "Constitution",
 				"uniques": [
-                                        "[+2 Culture] [in all cities connected to capital]",
+					                    "[+2 Happiness] [in capital]",                                    
+					"[+2 Culture] [in all cities connected to capital]",
 					"Instantly consumes [1] [Level 2 Policy] <hidden from users>",
 					"Only available <when above [1] [Level 2 Policy]> <hidden from users>"
 				],
