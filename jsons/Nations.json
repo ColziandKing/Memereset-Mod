@@ -1,43 +1,9 @@
 [
-{
-		"name": "Sumeria",
-		"leaderName": "Gilgamesh",
-		"adjective": ["Jerusalem"],
-		"startBias": ["Flood plains"],
-		"preferredVictoryType": "Domination",
-		
-		"startIntroPart1": "",
-		
-		"declaringWar": "For the good of my people i must declare war!",
-		"attacked": "You are making a big mistake.",
-		"defeated": "Will this be my last goodbye to you?.",
-		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
-		
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
-		
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-				
-		"outerColor": [69, 60, 50],
-		"innerColor": [255, 224, 189],
-		"uniqueName": "Epic of Gilgamesh",
-		"uniques": ["[+30]% [Culture] [in all cities] <during a Golden Age>","[+30]% [Science] [in all cities] <during a Golden Age>","[+5]% [Production] [in capital]"],
-		"cities": ["Ur",
-"Uruk",
-"Eridu",
-"Lagash",
-"Nippur",
-"Kish",
-"Larsa",
-"Sippar",
-"Shuruppak",
-"Adab"]
-	},
     {
         "name": "Sumeria",
         "leaderName": "Gilgamesh",
         "adjective": ["Sumer"],
-        "startBias": ["Avoid [Coast]"],
+        "startBias": ["Avoid [Coast]","Flood plains"],
         "preferredVictoryType": "Scientific",
         "startIntroPart1": "The neverending glory be upon you. King Gilgamesh, most legendary and mystical ruler of Sumeria! Oh mighty king, whose hands built the city-walls of Uruk and eyes saw the sage Utnapishtim! You are the leader of the Sumer, the first and the only civilization that was truely original and innovative. Sumer's history stretches back into time when the Gods were walking alongside the mere mortals. Sumer, the cradle of civilization, made a great progress in our history, gave the world most beatiful things - literature, architecture and music - and developed professional army, immortalizing the very first battle in the stele. Sumer's contributions to the civlization of man are uncountable.",
         "startIntroPart2": "Divine King, who, with strength and wisdom, built the glory of the ancient Sumer and became the very first hero of the history - people seek for your guidance! The wealth of Euphrates, Tigris and the whole Fertile Crescent cannot be wasted in the hands of barbarians. Can you once more bring glory and light to the humankind? Can you build a civilization to stand the test of time?",
@@ -51,7 +17,8 @@
         "outerColor": [15,70,109],
         "innerColor": [229,118,95],
         "uniqueName": "Cradle of Civilization",
-        "uniques": ["[+2 Culture] [in all cities] <after discovering [Drama and Poetry]>"],
+        "uniques": ["[+2 Culture] [in all cities] <after discovering [Drama and Poetry]>","[+30]% [Culture] [in all cities] <during a Golden Age>",
+			"[+30]% [Science] [in all cities] <during a Golden Age>","[+5]% [Production] [in capital]"],
         "cities": [
             "Ur","Kish","Uruk","Eridu","Umma","Lagash","Akshak","Larak","Bad-Tibira","Larsa",
             "Isin","Shruppak","Nibru","Zimbir","Girsu","Zabalam","Kisiga","Adab","Jemdet Nasr","Nina",
@@ -62,80 +29,12 @@
             "Azi","Dabir","Firuz","Gaspar","Shahzad","Aga","Marjane","Peri","Sartaj","Yasmin"
         ]
     },
-{
-		"name": "Norway",
-		"leaderName": "Erna Solberg",
-		"adjective": ["Norway"],
-		"startBias": ["Tundra"],
-		"preferredVictoryType": "Domination",
-		
-		"startIntroPart1": "",
-		
-		"declaringWar": "For the good of my people i must declare war!",
-		"attacked": "You are making a big mistake.",
-		"defeated": "Will this be my last goodbye to you?.",
-		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
-		
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
-		
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-				
-		"outerColor": [245, 72, 66],
-		"innerColor": [5, 18, 94],
-		"uniqueName": "Nordic Innovation",
-		"uniques": ["[+1 Faith, +1 Culture] in cities on [Tundra] tiles","[+1 Science] per [3] social policies adopted <starting from the [Modern era]>","[+1 Gold] from every [Camp]","[+15]% Production when constructing [Warrior] units [in all cities]","[+10]% Production when constructing [Scout] units [in all cities]"],
-		"cities": ["Oslo",
-"Bergen",
-"Trondheim",
-"Stavanger",
-"Tromsø",
-"Ålesund",
-"Kristiansand",
-"Drammen",
-"Bodø",
-"Narvik",
-"Haugesund",
-"Molde",
-"Sandnes",
-"Fredrikstad"]
-	},
-    {
-        "name": "Normandy",
-        "leaderName": "William the Conqueror",
-        "adjective": ["Norman"],
-        "startBias": ["Avoid [Coast]"],
-        "preferredVictoryType": "Domination",
-        "startIntroPart1": "Hail to thee, great Duke William of Normandy! Your people are a proud and noble race; hailing from their beginnings as Viking warriors, the Normans quickly established themselves as a persevering and formidable culture. Taking for themselves a land of their own in France, the Normans would spread their martial and cultural influence across Europe and the Mediterranean. With conquests in Southern Italy, Northern Africa, and the Levant, the might and piety of the Normans would know no match and, with you, Duke, at its stead, history would weave Normandy's boldest claim; for that of the throne of England, of which it would take, and change forever.",
-        "startIntroPart2": "Noble William, who took Excalibur and seized the ancient throne of the Britons, it is time to lay claim to the lands that are rightfully yours. Can you inspire the martial glory of your people once more? Can you build a civilization that will stand the test of time?",
-        "declaringWar": "Honestly, I grow tired of this peace between us. Don't be surprised: that is to be expected from a people of Viking ancestry.",
-        "attacked": "I adamantly refuse to willingly cede you my throne: take it from my cold, dead hands, if you dare!",
-        "defeated": "Your victory humbles me; to the victor go the spoils and I shall stand in your way no more.",
-        "introduction": "Hail to you. I am William, Duke of Normandy. Bring not misfortune to my court and we shall be fond allies.",
-        "neutralHello": "Greetings.",
-        "hateHello": "What do you want?",
-        "tradeRequest": "We are more than warriors, and this deal can prove it.",
-        "outerColor": [198,0,0],
-        "innerColor": [255,159,38],
-        "uniqueName": "Castle Builders",
-        "uniques": [
-            "[+10]% Strength <for [Military] units> <in [Foreign Land] tiles>",
-            "Gain a free [Castle Builders] [in all cities]"
-        ],
-        "cities": [
-            "Caen","Bayeux","Rouen","Saint-Valery","Le Havre","Cherbourg","Honfleur","Evreux","Coutances","Mayenne",
-            "Beauvais","Fecamp","Dreux","Fougeres","Douvres","Flamanville","Lisieux","Vire","Etretat","Dieppe",
-            "Saint-Lo","Alencon","Avranches","Granville","Le Treport","Giverny"
-        ],
-        "spyNames": [
-            "Jean-Paul","Martine","Lucien","François","Augustine","Monsieur X","Dr. Dupont","Vipère","Yvette","Renard"
-        ]
-    },
     {
         "name": "Norway",
         "leaderName": "Harald Hardrada",
         "adjective": ["Norwegian"],
         "startBias": ["Coast"],
+        "preferredVictoryType": "Diplomatic",
         "startIntroPart1": "Harald Hardrada, the last great Viking warrior-king, your name echoes through the ages. From your early days as a mercenary in the Byzantine Empire to your rise as King of Norway, your life has been a testament to strength, cunning, and unyielding ambition. Your campaigns have set the stage for a new era of Norse dominance. The winds of fate howl through the fjords, calling you to greatness once more.",
         "startIntroPart2": "The Great King of Norway, The Thunderbolt of the North, your people call upon you once more. Will you lead them to glory as you did in the battles of Stiklestad and Niså? Can you reclaim the throne of England and show the world the true power ? Will you build a civilization that will stand the test of time?",
         "declaringWar": "Now comes a storm you cannot escape. You can only hope for a quick death! To victory! To Odin's halls!",
@@ -147,8 +46,10 @@
         "tradeRequest": "I have sent you traders with gifts of rune stones. They are powerful. I mean, the stones, not the traders.",
         "outerColor": [8,30,87],
         "innerColor": [238,180,0],
+		"favoredReligion": "Eastern Orthodoxy",
         "uniqueName": "Nordic Bounty",
         "uniques": [
+			"[+1 Faith, +1 Culture] in cities on [Tundra] tiles",
             "[+1 Faith] from every [Water resource]",
             "[+2 Food, +1 Production] from every [Snow]"
         ],
@@ -170,8 +71,8 @@
 		"preferredVictoryType": "Domination",
 
 
-        "startIntroPart1": "",
-        "startIntroPart2": "",
+        "startIntroPart1": "Conquer thy plunder!",
+        "startIntroPart2": "Chief of war!",
 
                 "declaringWar": "We cannot tolerate you anymore",
 		"attacked": "The war has hardened us, but it has not broken us",
@@ -183,9 +84,11 @@
 		"outerColor": [26, 15, 9],
 		"innerColor": [255, 95, 13],
 		"uniqueName": "Mediterranean Pirates",
-		"uniques": ["All newly-trained [Water] units [in all cities] receive the [Capture I] promotion","All newly-trained [Water] units [in all cities] receive the [Capture II] promotion","All newly-trained [Land] units [in all cities] receive the [Coastal Movement] promotion"],
+		"uniques": ["All newly-trained [Water] units [in all cities] receive the [Boarding Party I] promotion","All newly-trained [Water] units [in all cities] receive the [Boarding Party II] promotion",
+			"All newly-trained [Water] units [in all cities] receive the [Boarding Party III] promotion","All newly-trained [Land] units [in all cities] receive the [Charge] promotion",
+			"When defeating a [{Barbarian} {Water}] unit, earn [250] Gold and recruit it <with [100]% chance>","When conquering an encampment, earn [250] Gold and recruit a Barbarian unit <with [100]% chance>"],
 		"cities": ["Hippo Regius", "Leptus Magna", "Cartenna", "Bulla Regia", "Lilybaeum", "Catane", "Cirta", "Caralis", "Aleria", "Nantes", "Strasbourg"],
-        "spyNames": ["Boval"]
+        "spyNames": ["Boval","Abyadh","Canus","Serpens","Agrippa"]
     },
 
     {
@@ -193,7 +96,7 @@
         "leaderName": "Saladin",
         "adjective": ["Ayyubid"],
         "startBias": ["Avoid [Coast]","Desert"],
-        "preferredVictoryType": "Scientific",
+        "preferredVictoryType": "Domination",
         "startIntroPart1": "Peace and blessings be upon you, oh great Saladin! From humble beginnings in a Kurdish family, your upbringing in Damascus saw you excel in all which you took part in. It was under your leadership that combined Muslim armies defeated the ambitious Crusaders of Europe in a series of victories in which you overcame overwhelming odds in order to prevail. None could stand against you, and your forces became pivotal in driving the Christians out of the Holy Land once more. From your stronghold of Cairo, you established the Ayyubid dynasty, one which would come to rule vast swathes of land, from Tunisia in the west to Mesopotamia in the East and Nubia in the South. Despite your overwhelming military power, you remained chivalrous, for which even your most fervent of enemies respected you. The Ayyubid dynasty lasted long after your death, defeating all those who wished to take her land for centuries before finally succumbing to threats from within.",
         "startIntroPart2": "Oh great Saladin, your people look to you to rebuild the might of the Ayyubid dynasty. Can you once again strike fear into the hearts and minds of your enemies with but a whisper of your name? Will your dominion will be respected by all of your neighbours, even your enemies? Can you build a civilization that can stand the test of time?",
         "declaringWar": "The time has come to meet your end! For the Ayyubid Dynasty!",
@@ -205,48 +108,23 @@
         "tradeRequest": "I propose for a trading treaty that might interest you.",
         "outerColor": [241, 191, 38],
         "innerColor": [184, 75, 0],
-        "uniqueName": "Justice of Saladin",
-        "uniques": [
-            "Can build [all] improvements at a [+25]% rate",
-            "Gain a free [Ayyubid Burial Tomb] [in annexed cities]",
-            "Gain a free [Ayyubid Burial Tomb] [in puppeted cities]"
+        "uniqueName": "Amir al-Mu'minin",
+        "uniques": ["[2] free [Mamluk] units appear <upon gaining a [Great Prophet] unit> <with [60]% chance>",
+			"[+10]% [Science] [in all cities]",
+			"[Faith] cost of purchasing [Great Prophet] units [-25]%",
+            "Gain a free [Shrine] [in annexed cities]",
+            "Gain a free [Shrine] [in puppeted cities]"
         ],
         "cities": [
             "Al-Qahirah","Al-Iskandariyyah","Ba'albek","Bilbeis","Dimashq","Qus","Assuan","Zabid","Adan","Akhmim",
             "Beirut","Madinat Al-Fayyum","Al-Karak","Ta'izz","Sana'a","Yanbu","Al-Raqqah","Al-Madinah","Makkah","Sur",
             "Abbasa","Al-Bahnasa","Mayyafariqin","Dimyat","Timis","Al-Shawbak","Ayla","Al-Quds","Hamat","Homs",
-            "Al-Ta'if","A'zaz","Dvin","Kafr Sabt","Jaffa","Jazirat ibn Umar","Harad"
+            "Al-Ta'if","A'zaz","Dvin","Kafr Sabt","Jaffa","Jazirat ibn Umar","Harad","Cairo"
         ],
         "spyNames": [
             "Solhofaat","Khenzeer","Zarafah","Temsaah","Abyadh","Mostafa","Yusuf","Waddah","Sameera","Gamal"
         ]
     },
-	{
-		"name": "Ayyubids",
-		"leaderName": "Saladin",
-		"adjective": ["The Ayyubids"],
-		"startBias": ["Desert"],
-		"preferredVictoryType": "Domination",
-		
-		"startIntroPart1": "",
-		
-		"declaringWar": "For the good of The Empire i must declare war!",
-		"attacked": "You are making a big mistake.",
-		"defeated": "Will this be my last goodbye to you?.",
-		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
-		
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
-		
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-				
-		"outerColor": [180, 134, 38],
-		"innerColor": [255, 255, 255],
-		"uniqueName": "Amir al-Mu'minin",
-		"uniques": ["[2] free [Mamluk] units appear <upon gaining a [Great Prophet] unit> <with [60]% chance>","[+10]% [Science] [in all cities]","[Faith] cost of purchasing [Great Prophet] units [-25]%"],
-		"cities": ["Cairo","Dvin","Baalbek","Bilbais","Alexandria","Aswan","Zabid","Taizz","Sanaa","Yanbu","Hama"]
-	},
-
 	{
 		"name": "Belgium",
 		"leaderName": "Leopold II",
@@ -254,7 +132,7 @@
 		"startBias": ["Jungle","River"],
 		"preferredVictoryType": "Scientific",
 		
-		"startIntroPart1": "",
+		"startIntroPart1": "Hat",
 		
 		"declaringWar": "For the good of the Empire i must declare war!",
 		"attacked": "You are making a big mistake.",
@@ -268,8 +146,9 @@
 				
 		"outerColor": [25, 28, 41],
 		"innerColor": [255, 225, 181],
-		"uniqueName": "Slave State",
-		"uniques": ["[+1 Production] from all [Granary] buildings","[+3 Gold] from all [Market] buildings <starting from the [Industrial era]>","[+3 Production] from all [Workshop] buildings <starting from the [Industrial era]>"],
+		"uniqueName": "River Steamers",
+		"uniques": ["[+1 Production] from all [Granary] buildings","[+3 Gold] from all [Market] buildings <starting from the [Industrial era]>",
+			"[+3 Production] from all [Workshop] buildings <starting from the [Industrial era]>"],
 		"cities": ["Brussels",
 "Antwerp",
 "Ghent",
@@ -278,17 +157,62 @@
 "Namur",
 "Leuven",
 "Mons"],
+        "spyNames": ["Rouen",
+"Caen",
+"Bayeux",
+"Falaise",
+"Évreux",
+"Cherbourg",
+"Alençon",
+"Lisieux",
+"Honfleur",
+"Le Havre",
+"Dieppe",
+"Avranches",
+"Argentan"]
 	},
+    {
+        "name": "Normandy",
+        "leaderName": "William the Conqueror",
+        "adjective": ["Norman"],
+        "startBias": ["Avoid [Coast]"],
+        "preferredVictoryType": "Domination",
+        "startIntroPart1": "Hail to thee, great Duke William of Normandy! Your people are a proud and noble race; hailing from their beginnings as Viking warriors, the Normans quickly established themselves as a persevering and formidable culture. Taking for themselves a land of their own in France, the Normans would spread their martial and cultural influence across Europe and the Mediterranean. With conquests in Southern Italy, Northern Africa, and the Levant, the might and piety of the Normans would know no match and, with you, Duke, at its stead, history would weave Normandy's boldest claim; for that of the throne of England, of which it would take, and change forever.",
+        "startIntroPart2": "Noble William, who took Excalibur and seized the ancient throne of the Britons, it is time to lay claim to the lands that are rightfully yours. Can you inspire the martial glory of your people once more? Can you build a civilization that will stand the test of time?",
+        "declaringWar": "Honestly, I grow tired of this peace between us. Don't be surprised: that is to be expected from a people of Viking ancestry.",
+        "attacked": "I adamantly refuse to willingly cede you my throne: take it from my cold, dead hands, if you dare!",
+        "defeated": "Your victory humbles me; to the victor go the spoils and I shall stand in your way no more.",
+        "introduction": "Hail to you. I am William, Duke of Normandy. Bring not misfortune to my court and we shall be fond allies.",
+        "neutralHello": "Greetings.",
+        "hateHello": "What do you want?",
+        "tradeRequest": "We are more than warriors, and this deal can prove it.",
+        "outerColor": [198,0,0],
+        "innerColor": [255,159,38],
+        "uniqueName": "Castle Builders Conquest",
+        "uniques": ["Upon capturing a city, receive [4] times its [Gold] production as [Gold] immediately",
+			"Earn [40]% of killed [Wounded] unit's [Cost] as [Gold]",
+            "[+10]% Strength <for [Military] units> <in [Foreign Land] tiles>",
+            "Gain a free [Castle] [in all cities]"
+        ],
+        "cities": [
+            "Caen","Bayeux","Rouen","Saint-Valery","Le Havre","Cherbourg","Honfleur","Evreux","Coutances","Mayenne",
+            "Beauvais","Fecamp","Dreux","Fougeres","Douvres","Flamanville","Lisieux","Vire","Etretat","Dieppe",
+            "Saint-Lo","Alencon","Avranches","Granville","Le Treport","Giverny"
+        ],
+        "spyNames": [
+            "Jean-Paul","Martine","Lucien","François","Augustine","Monsieur X","Dr. Dupont","Vipère","Yvette","Renard"
+        ]
+    },
 
 {
-		"name": "Normandy",
-		"leaderName": "William I",
-		"adjective": ["Normandy]"],
+		"name": "English",
+		"leaderName": "Harold Godwinson",
+		"adjective": ["Anglo-Saxons"],
 		"startBias": ["Forest","Hill"],
-		"preferredVictoryType":"Diplomatic",
+		"preferredVictoryType":"Domination",
 
-		"startIntroPart1": "",
-		"startIntroPart2": "",
+		"startIntroPart1": "Fat",
+		"startIntroPart2": "Rat",
 
 		"declaringWar": "You are in my way, you must be destroyed.",
 		"attacked": "As a matter of fact I too grow weary of peace.",
@@ -302,9 +226,13 @@
 
 		"outerColor": [242, 234, 194],
 		"innerColor": [32, 40, 69],
-		"uniqueName": "Conquest of England",
-		"uniques": ["Upon capturing a city, receive [4] times its [Gold] production as [Gold] immediately","Earn [40]% of killed [Wounded] unit's [Cost] as [Gold]"],
-		"cities": ["Rouen",
+		"uniqueName": "Briton Allies",
+		"uniques": ["[+1 Science] per [3] social policies adopted <starting from the [Medieval era]>",
+			"[+15]% Production when constructing [Warrior] units [in all cities]",
+			"[+10]% Production when constructing [Scout] units [in all cities]",
+			"[+1 Faith, +1 Science] from every [University]"
+		],
+	"cities": ["Rouen",
 "Caen",
 "Bayeux",
 "Falaise",
@@ -317,6 +245,9 @@
 "Dieppe",
 "Avranches",
 "Argentan"],
+        "spyNames": [
+            "Jean-Paul","Martine","Lucien","François","Augustine","Monsieur X","Dr. Dupont","Vipère","Yvette","Renard"
+        ]
 	},
 
     {
@@ -338,42 +269,17 @@
         "innerColor": [181, 214, 207],
         "uniqueName": "Drauhtinon",
         "uniques": [
+			"[+35]% Strength <for [Sword] units>",
+			"Gain [100] [Gold] <upon conquering a city>",
             "[+1] Movement <for [Sword] units>",
             "[+1] Movement <for [Gunpowder] units>"
         ],
         "cities": [
-            "Arheimar","Aujum","Potaissa","Apulon","Tyras","Sarmizegetusa","Argidava","Olite","Tolosa","Olbia",
+            "Árheimar","Aujum","Potaissa","Apulon","Tyras","Sarmizegetusa","Argidava","Olite","Tolosa","Olbia",
             "Reccopolis","Toletum","Pityus","Burdigala","Gerunda","Aiadava","Thessalonica","Victoriacum","Carnuntum","Sirmium",
             "Massalia","Naissus","Salona","Durostorum","Marcianopolis","Tomis","Histria","Arles","Cantabria"
         ],
         "spyNames": [
-            "Flavius","Regula","Servius","Lucia","Cornelius","Licina","Canus","Serpens","Agrippa","Brutus"
-        ]
-    },
-{
-		"name": "The Goths",
-		"leaderName": "Alaric I",
-		"adjective": ["Goths"],
-		"startBias": ["Forest"],
-		"preferredVictoryType": "Domination",
-		
-		"startIntroPart1": "",
-		
-		"declaringWar": "For the good of The Empire i must declare war!",
-		"attacked": "You are making a big mistake.",
-		"defeated": "Will this be my last goodbye to you?.",
-		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
-		
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
-		
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-				
-		"outerColor": [54, 50, 49],
-		"innerColor": [204, 201, 200],
-		"uniqueName": "Sacker of Rome",
-		"uniques": ["[+35]% Strength <for [Sword] units>","Gain [100] [Gold] <upon conquering a city>"],
-		"cities": ["Árheimar",
 "Ravenna",
 "Tolosa",
 "Aquincum",
@@ -387,8 +293,9 @@
 "Scupi",
 "Thessalonica",
 "Hadrianopolis",
-"Philippopolis"],
-	},
+"Philippopolis"
+        ]
+    },
     {
         "name": "Franks",
         "leaderName": "Charlemagne",
@@ -407,7 +314,8 @@
         "outerColor": [3, 16, 230],
         "innerColor": [255, 148, 10],
         "uniqueName": "Holy Roman Empire",
-        "uniques": ["[+1 Faith] from every [Farm]"],
+        "uniques": ["[+1 Faith] from every [Farm]","[+5]% [Faith] [in capital]","[+10]% [Production] [in capital]",
+			"[+1 Faith, +1 Production] from every [Grand Temple]","[+1 Faith, +1 Production] from every [Workshop]"],
         "cities": [
             "Aachen","Cologne","Duisburg","Metz","Regensburg","Luxembourg","Strasbourg","Nuremberg","Ulm","Fulda",
             "Rheims","Verdun","Mainz","Worms","Lubeck","Brandenburg","Heidelberg","Tongres","Betuwe","Tieling",
@@ -416,40 +324,6 @@
         "spyNames": [
             "Johann","Marlene","Wilhelm","Eva","Heinz","Horst","Carl","Viper","Albrecht","Anton"
         ]
-    },
-{
-		"name": "The Franks",
-		"leaderName": "Charlemagne",
-		"adjective": ["Franks"],
-		"startBias": ["Forest"],
-		"preferredVictoryType": "Domination",
-		
-		"startIntroPart1": "",
-		
-		"declaringWar": "For the good of my people i must declare war!",
-		"attacked": "You are making a big mistake.",
-		"defeated": "Will this be my last goodbye to you?.",
-		"introduction": "Tell me, are you a barbarian, or are you as civilized as we are?",
-		
-		"neutralHello": "Greetings.",
-		"hateHello": "What do YOU want?!",
-		
-		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
-				
-		"outerColor": [23, 20, 74],
-		"innerColor": [255, 210, 120],
-		"uniqueName": "Holy Roman Emperor",
-		"uniques": ["[+5]% [Faith] [in capital]","[+10]% [Production] [in capital]","[+1 Faith, +1 Production] from every [Grand Temple]","[+1 Faith, +1 Production] from every [Workshop]","[+1 Faith, +1 Science] from every [University]"],
-		"cities": ["Aachen",
-"Paris",
-"Reims",
-"Trier",
-"Cologne",
-"Strasbourg",
-"Lyon",
-"Tours",
-"Rouen",
-"Orleans"]
 	},
 	{
 		"name": "Canada",
@@ -640,6 +514,31 @@
             "Li","Chen","Zhang","Liu","Yang","Huang","Zhao","Wu","Zhou","Sun"
         ]
     },
+	"Oslo",
+"Bergen",
+"Trondheim",
+"Stavanger",
+"Tromsø",
+"Ålesund",
+"Kristiansand",
+"Drammen",
+"Bodø",
+"Narvik",
+"Haugesund",
+"Molde",
+"Sandnes",
+"Fredrikstad",
+	"Aachen",
+"Paris",
+"Reims",
+"Trier",
+"Cologne",
+"Strasbourg",
+"Lyon",
+"Tours",
+"Rouen",
+"Orleans"]"Hattusa", "Tarhuntassa", "Nesa", "Samuha", "Kussara", "Lusna", "Tunip", "Sapinuwa", "Tarsos", "Alalah", "Karchemish", "Halab", "Kadesh"],
+		
     {
         "name": "Hittites",
         "leaderName": "Muwatallis",
@@ -658,7 +557,7 @@
         "outerColor": [199, 176, 97],
         "innerColor": [92, 43, 43],
         "uniqueName": "Bronze and Iron",
-        "uniques": [
+        "uniques": ["Comment [Start with an Pantheon]","Gain [10] [Faith] <hidden from users>","[+2 Faith] [in holy cities]","[+2 Culture] [in holy cities]","[+1 Happiness] [in holy cities]"
             "Starts with [Mining]",
             "[+1 Gold] from every [Mine]",
             "[+2 Gold] from every [Mine] <with [3] to [6] neighboring [Mine] tiles>"
@@ -693,7 +592,7 @@
 		"outerColor": [214, 181, 64],
 		"innerColor": [20, 20, 18],
 		"uniqueName": "Land of a Thousand Gods",
-		"uniques": ["Comment [Start with an Pantheon]","Gain [10] [Faith] <hidden from users>","[+2 Faith] [in holy cities]","[+2 Culture] [in holy cities]","[+1 Happiness] [in holy cities]"],
+		"uniques": [],
 		"cities": ["Hattusa", "Tarhuntassa", "Nesa", "Samuha", "Kussara", "Lusna", "Tunip", "Sapinuwa", "Tarsos", "Alalah", "Karchemish", "Halab", "Kadesh"],
 		"spyNames": ["Saki"]
 	},
