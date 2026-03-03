@@ -110,7 +110,7 @@
         "outerColor": [241, 191, 38],
         "innerColor": [184, 75, 0],
         "uniqueName": "Amir al-Mu'minin",
-        "uniques": ["[2] free [Mamluk] units appear <upon gaining a [Great Prophet] unit> <with [60]% chance>",
+        "uniques": ["[2] free [Lancer] units appear <upon gaining a [Great Prophet] unit> <with [60]% chance>",
 			"[+10]% [Science] [in all cities]",
 			"[Faith] cost of purchasing [Great Prophet] units [-25]%",
             "Gain a free [Shrine] [in annexed cities]",
