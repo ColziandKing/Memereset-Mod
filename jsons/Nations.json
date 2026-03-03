@@ -393,6 +393,18 @@
 			"Vicksburg","Chattanooga","Wilmington","Columbus","Jackson","Tallahassee","Petersburg","Galveston","Knoxville",
 			"Meridian","Shreveport","Alexandria","Macon","Selma","Little Rock","Greensboro","Augusta","Murfreesboro"]
 	},
+        "spyNames": [
+	"Aachen",
+"Paris",
+"Reims",
+"Trier",
+"Cologne",
+"Strasbourg",
+"Lyon",
+"Tours",
+"Rouen",
+"Orleans"
+		]
     {
         "name": "Boers",
         "leaderName": "Stephanus Johannes Paulus Kruger",
@@ -427,7 +439,7 @@
         ]
     },
     {
-        "name": "Manchuria",
+        "name": "Manchu",
         "leaderName": "Nurhaci",
         "adjective": ["Manchurian"],
         "startBias": ["Avoid [Coast]"],
@@ -450,9 +462,9 @@
             "[-100]% maintenance costs <for [Bomber] units>",
             "[Mounted] units gain the [Volley] promotion",
             "[Armor] units gain the [Volley] promotion",
-            "[Bomber] units gain the [Volley] promotion"
-            //"[+100]% Production when constructing [Stable] buildings [in all cities]",
-            //"[+1 Gold] from every [Stable]"
+            "[Bomber] units gain the [Volley] promotion",
+            "[+100]% Production when constructing [Stable] buildings [in all cities]",
+            "[+1 Gold] from every [Stable]"
         ],
         "cities": [
             "Mukden","Hetu Ala","Yenden","Xingjing","Fushun","Qinghe","Sarhu","Girin Ula","Qiaonan","Tieling",
@@ -463,32 +475,7 @@
             "Li","Chen","Zhang","Liu","Yang","Huang","Zhao","Wu","Zhou","Sun"
         ]
     },
-	"Oslo",
-"Bergen",
-"Trondheim",
-"Stavanger",
-"Tromsø",
-"Ålesund",
-"Kristiansand",
-"Drammen",
-"Bodø",
-"Narvik",
-"Haugesund",
-"Molde",
-"Sandnes",
-"Fredrikstad",
-	"Aachen",
-"Paris",
-"Reims",
-"Trier",
-"Cologne",
-"Strasbourg",
-"Lyon",
-"Tours",
-"Rouen",
-"Orleans"]"Hattusa", "Tarhuntassa", "Nesa", "Samuha", "Kussara", "Lusna", "Tunip", "Sapinuwa", "Tarsos", "Alalah", "Karchemish", "Halab", "Kadesh"],
-		Šuppiluliuma I
-    {
+	{
         "name": "Hittites",
         "leaderName": "Muwatallis",
         "adjective": ["Hittite"],
@@ -517,7 +504,7 @@
             "Hanhana","Gaziura","Sarissa","Kummani","Catalhoyuk","Ankuwa","Karhoyuk","Alisarhoyuk","Zippalanda"
         ],
         "spyNames": [
-            "Ibrahim","Bayezid","Sokollu","Mahmut","Uveys","Roxelana","Safiye","Hafsa","Kosem","Nurbanu"
+            "Šuppiluliuma I","Ibrahim","Bayezid","Sokollu","Mahmut","Uveys","Roxelana","Safiye","Hafsa","Kosem","Nurbanu"
         ]
     },
 
