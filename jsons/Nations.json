@@ -49,6 +49,7 @@
 		"favoredReligion": "Eastern Orthodoxy",
         "uniqueName": "Nordic Bounty",
         "uniques": [
+			"[+1 Production, +2 Gold] from [Deer] tiles [in all cities]",
 			"[+1 Faith, +1 Culture] in cities on [Tundra] tiles",
             "[+1 Faith] from every [Water resource]",
             "[+2 Food, +1 Production] from every [Snow]"
@@ -325,62 +326,6 @@
             "Johann","Marlene","Wilhelm","Eva","Heinz","Horst","Carl","Viper","Albrecht","Anton"
         ]
 	},
-	{
-		"name": "Canada",
-		"leaderName": "Wilfrid Laurier",
-		"adjective": ["Canada"],
-		"startBias":["Tundra"],
-		"preferredVictoryType": "Domination",
-	
-	
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-	
-				"declaringWar": "We cannot tolerate you anymore",
-		"attacked": "The war has hardened us, but it has not broken us",
-		"defeated": "This cannot happen!",
-		"introduction": "Welcome to our land",
-		"neutralHello": "Hello.",
-		"hateHello": "We do not fear war",
-		"tradeRequest": "Check out this",
-		"outerColor": [255, 255, 255],
-		"innerColor": [168, 0, 0],
-		"uniqueName": "The Last Best West",
-		"uniques": ["[+2 Food] in cities on [Tundra] tiles","[+1 Food] from [Tundra] tiles [in all cities]","[+1 Production, +2 Gold] from [Deer] tiles [in all cities]"],
-		"cities": ["Ottawa", "Toronto", "Montreal", "Halifax", "Winnipeg", "Vancouver", "Quebec City", "Calgary", "Edmonton", "Mississauga", "Brampton", "Hamilton", "Surrey"],
-		"spyNames": ["Saki"]
-	},
-
-	{
-		"name": "Canada",
-		"leaderName": "Wilfrid Laurier",
-		"adjective": ["Canadian"],
-		"startBias": ["Tundra"],
-		"preferredVictoryType": "Diplomatic",
-		"personality": "Wilfrid Laurier",
-		
-                "startIntroPart1": "Welcome, Sir Wilfrid Laurier, Prime Minister of Canada. Your is a free country and freedom is its nationality, and it is your task to ensure that said liberty is preserved. Born from French stock, your tenure as Prime Minister would cement the foundations of Canada as a bastion of freedom in the new world. Under your leadership, your country would expand to the green plains if the West, and the wounds dealt by the rivalries and alliances of the Old World would begin to heal. An intelligent and eloquent politician, your words and deeds would keep Canada hale and whole through the First World War and beyond.",
-		"startIntroPart2": "The world is once again plunged into darkness, and Canada herself struggles in the shadows. O' steadfast Prime Minister, will you be for Canada a pillar of fire, guiding the free world with your sunny ways? Will you build a civilization to stand the test of time?",
-		
-		"declaringWar": "In responding to the unstinting malignancy that has heretofore defined your relationship with Canada, we can have no recourse but war!",
-		"attacked": "As we can reach no peaceful resolution with you, Canada must turn, with reluctance, to war.",
-		"defeated": "I regret not defending my country to the last, although it was not of use.",
-		"denounced": "Negotiating with you tests the limits of human patience, and I will no longer indulge your behavior.",
-		"introduction": "On behalf of the people of Canada, welcome. I am Prime Minister Laurier.",
-		"neutralHello": "Greetings.",
-		"hateHello": "What do you want?",
-		"tradeRequest": "On behalf of the people of Canada, I offer you this in sign of friendship.",
-		
-		"outerColor": [255, 255, 255],
-		"innerColor": [255, 0, 0],
-		
-                "favoredReligion": "Catholicism",
-		"uniqueName": "Canadian Expeditionary Force",
-		"uniqueText": "Gain triple the Influence of Military unit gifts to City-States (double bonus when gifting a Peacekeeper)\n-25% Strength for Military units when attacking cities",
-		"uniques": ["Gain [15] Influence with a [Military] gift to a City-State", "Gain [30] Influence with a [Peacekeeper] gift to a City-State", "[-25]% Strength <for [Military] units> <vs cities> <when attacking>"],
-		"cities": ["Ottawa", "Toronto", "Montreal", "Vancouver", "Winnipeg", "Quebec City", "Hamilton", "Halifax", "Victoria", "Windsor", "Kingston", "Brantford", "Regina", "St. John's", "Calgary", "Saskatoon", "Sault Sainte Marie", "Saint-Lin", "Whitehorse", "Thunder Bay"],
-		"spyNames": ["Aurelie", "Adam", "Ariana", "Adrian", "Beatrice", "Antoine", "Chloe", "Benoit", "Charlotte", "Cedric"]
-	},
     {
         "name": "Canada", // Text chat added
         "leaderName": "John A. MacDonald",
@@ -397,8 +342,12 @@
         "tradeRequest": "There's no frontier too distant for fair trade. Let's build something enduring together.",
         "outerColor": [228, 26, 40],
         "innerColor": [245, 222, 153],
-        "uniqueName": "Canadian Fur Trade",
-        "uniques": [
+                "favoredReligion": "Catholicism",
+        "uniqueName": "Canadian Expeditionary Trade",
+        "uniques": ["Gain [15] Influence with a [Military] gift to a City-State", 
+			"Gain [30] Influence with a [Scout] gift to a City-State", 
+			"[-25]% Strength <for [Military] units> <vs cities> <when attacking>",
+			"[+2 Food] in cities on [Tundra] tiles","[+1 Food] from [Tundra] tiles [in all cities]",
             "[+2 Gold] from every [Camp]",
             "[+2 Gold, +1 Culture] from every [Lakes]"
         ],
@@ -414,7 +363,7 @@
     },
 
 	{
-		"name": "The Confederate States",
+		"name": "Confederacy",
 		"leaderName": "Jefferson Davis",
 		"adjective": ["Confederate"],
 		 "startBias": ["Grassland"],
@@ -538,7 +487,7 @@
 "Tours",
 "Rouen",
 "Orleans"]"Hattusa", "Tarhuntassa", "Nesa", "Samuha", "Kussara", "Lusna", "Tunip", "Sapinuwa", "Tarsos", "Alalah", "Karchemish", "Halab", "Kadesh"],
-		
+		Šuppiluliuma I
     {
         "name": "Hittites",
         "leaderName": "Muwatallis",
@@ -556,10 +505,10 @@
         "tradeRequest": "The King of the Land of Hatti invites you as his brother, to establish peace and fraternity between us in the eyes of the gods.",
         "outerColor": [199, 176, 97],
         "innerColor": [92, 43, 43],
-        "uniqueName": "Bronze and Iron",
-        "uniques": ["Comment [Start with an Pantheon]","Gain [10] [Faith] <hidden from users>","[+2 Faith] [in holy cities]","[+2 Culture] [in holy cities]","[+1 Happiness] [in holy cities]"
-            "Starts with [Mining]",
-            "[+1 Gold] from every [Mine]",
+        "uniqueName": "Land of a Thousand Gods of Bronze and Iron",
+        "uniques": ["Comment [Start with an Pantheon]","Gain [10] [Faith] <hidden from users>","[+2 Faith] [in holy cities]",
+			"[+2 Culture] [in holy cities]","[+1 Happiness] [in holy cities]",
+            "Starts with [Mining]","[+1 Gold] from every [Mine]",
             "[+2 Gold] from every [Mine] <with [3] to [6] neighboring [Mine] tiles>"
         ],
         "cities": [
@@ -571,32 +520,6 @@
             "Ibrahim","Bayezid","Sokollu","Mahmut","Uveys","Roxelana","Safiye","Hafsa","Kosem","Nurbanu"
         ]
     },
-	{
-		"name": "The Hittites",
-		"leaderName": "Šuppiluliuma I",
-		"adjective": ["The Hittites"],
-		"startBias":["Avoid [Forest]","Avoid [Jungle]"],
-		"preferredVictoryType": "Domination",
-	
-	
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-	
-				"declaringWar": "We cannot tolerate you anymore",
-		"attacked": "The war has hardened us, but it has not broken us",
-		"defeated": "This cannot happen!",
-		"introduction": "Welcome to our land",
-		"neutralHello": "Hello.",
-		"hateHello": "We do not fear war",
-		"tradeRequest": "Check out this",
-		"outerColor": [214, 181, 64],
-		"innerColor": [20, 20, 18],
-		"uniqueName": "Land of a Thousand Gods",
-		"uniques": [],
-		"cities": ["Hattusa", "Tarhuntassa", "Nesa", "Samuha", "Kussara", "Lusna", "Tunip", "Sapinuwa", "Tarsos", "Alalah", "Karchemish", "Halab", "Kadesh"],
-		"spyNames": ["Saki"]
-	},
-
 
     {
         "name": "Byzantium",
