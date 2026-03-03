@@ -61,7 +61,7 @@
 		"unitType": "Melee Water",
 		"uniqueTo": "Denmark",
 		"movement": 6,
-		"strength": 10,
+		"strength": 12,
 		"cost": 40,
 		"uniques": [
 			"Never appears as a Barbarian unit <hidden from users>",
@@ -76,11 +76,11 @@
 	{
 		"name": "Hand-Axe",
 		"replaces": "Chariot Archer",
-		"uniqueTo": "Denmark",
+		"uniqueTo": "Norway",
 		"unitType": "Archery",
 		"movement": 3,
-		"strength": 10,
-		"rangedStrength": 10,
+		"strength": 12,
+		"rangedStrength": 12,
 		"range": 2,
 		"cost": 56,
 		"uniques": [
@@ -91,6 +91,20 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Norwegian Ski Infantry",
+		"unitType": "Gunpowder",
+		"replaces": "Rifleman",
+		"uniqueTo": "Norway",
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"promotions": ["[Norwegian Ski Infantry] ability"],
+		"attackSound": "shot"
 	},
 
 	{
