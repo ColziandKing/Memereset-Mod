@@ -348,8 +348,8 @@
 			"Gain [30] Influence with a [Scout] gift to a City-State", 
 			"[-25]% Strength <for [Military] units> <vs cities> <when attacking>",
 			"[+2 Food] in cities on [Tundra] tiles","[+1 Food] from [Tundra] tiles [in all cities]",
-            "[+2 Gold] from every [Camp]",
-            "[+2 Gold, +1 Culture] from every [Lakes]"
+            "[+2 Gold, +1 Culture] from every [Lakes]",
+            "[+2 Gold] from every [Camp]"
         ],
         "cities": [
             "Ottawa","Toronto","Montreal","Vancouver","Calgary","Edmonton","Quebec City","Winnipeg","Mississauga","Halifax",
