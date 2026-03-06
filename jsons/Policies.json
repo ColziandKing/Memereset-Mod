@@ -1834,4 +1834,134 @@
 			}
 		]
 	},
+    {
+        "name": "Sustainability",
+        "era": "Atomic era",
+        "uniques": [
+            "Get the leader title of [Nature-protecting [leaderName]]",
+            "Comment [Enables you to build [Natural Reserve],an 'Policy Improvement' that synergies with undeveloped tiles]",
+            "[-10]% maintenance cost for [all] buildings [in all cities]"
+        ],
+        "policies": [
+            {
+                "name": "Protected Areas",
+                "uniques": [
+                    "[+2 Science, +3 Culture, +1 Happiness] from every [Garden]",
+                    "[+2 Science, +3 Culture, +1 Happiness] from every [Holiday Resort]",
+                    "[+10 Culture, +5 Happiness] from every [Natural Wonder]",
+                    "[-25]% construction time for [Permaculture] improvements"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Sustainable Power Source",
+                "uniques": [
+                    "[+10]% [Production] from every [Hydro Plant]",
+                    "[+10]% [Production] from every [Solar Plant]",
+                    "[+10]% [Production] from every [Recycling Center]",
+                    "[+10]% [Production] from every [Recycling Industry]",
+                    "[+100]% [Waste Material] resource production"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Water Purification",
+                "uniques": [
+                    "[+1 Culture] from every [Fresh water]",
+                    "[+1 Production, +1 Happiness] from every [Oasis]",
+                    "[+1 Happiness] from every [Lakes]",
+                    "[+25]% [Science] <while the empire is happy>"
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Decarbonization",
+                "uniques": [
+                    "Gain a free [Carbon Capture] [in all cities]",
+                    "Comment [Upgrade all existing and future [Coal Power Plant] with [Carbon Capture],a style that provides more [Science] and [Culture] at cost of [Production], also produces 1 [Waste Material].]"
+                ],
+                "requires": [
+                    "Protected Areas",
+                    "Sustainable Power Source",
+                    "Water Purification"
+                ],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Sustainability Complete",
+                "uniques": [
+                    "Instantly provides [10] [Influence]",
+                    "Empire enters golden age",
+                    "Provides [1] [Influence] <when number of [Influence] is less than [Influence Limit]>",
+                    "[+25]% Great Person generation [in all cities]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Digitization",
+        "era": "Atomic era",
+        "uniques": [
+            "Get the leader title of [The Adaptable [leaderName]]",
+            "[+33]% Production when constructing ['High Tech Industry'] buildings [in all cities]"
+        ],
+        "policies": [
+            {
+                "name": "Reformed Bureaucracy",
+                "uniques": [
+                    "[+2 Science] from every ['Political Building']",
+                    "[+2 Science] from every ['Educational Building']",
+                    "[+2 Science] from every ['Research Building']"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Advanced Planning",
+                "uniques": [
+                    "[+25]% Production when constructing [All] buildings [in all cities]",
+                    "[Gold] cost of purchasing items in cities [-25]%"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Every-man-a-terminal",
+                "uniques": [
+                    "[+1 Production] per [5] population [in all cities]"
+                ],
+                "requires": [
+                    "Reformed Bureaucracy",
+                    "Advanced Planning"
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Effective governing",
+                "uniques": [
+                    "[+15]% Production when constructing ['Infrastructure'] buildings [in all cities]",
+                    "[5]% Food is carried over after population increases [in all cities]",
+                    "[-10]% Unhappiness from [Population] [in all cities]"
+                ],
+                "requires": [
+                    "Every-man-a-terminal"
+                ],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Digitization Complete",
+                "uniques": [
+                    "Instantly provides [10] [Influence]",
+                    "[+100]% [Electronic Parts] resource production",
+                    "[+100]% [Microchips] resource production"
+                ]
+            }
+        ]
+    },
 ]
